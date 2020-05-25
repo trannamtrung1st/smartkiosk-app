@@ -1,4 +1,4 @@
-package com.skapp;
+package com.smartkiosk;
 
 import android.app.Application;
 import android.content.Context;

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1078298386676",
+    "firebase_url": "https://smartkiosk-f95c0.firebaseio.com",
+    "project_id": "smartkiosk-f95c0",
+    "storage_bucket": "smartkiosk-f95c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078298386676:android:2c4a2fa414878237d07ea1",
+        "android_client_info": {
+          "package_name": "com.smartkiosk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078298386676-79j8t1kgna44mqha0vb5elfebervff55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDloAFSffM0DumIe95ogwMtu1wToQm1s34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078298386676-79j8t1kgna44mqha0vb5elfebervff55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

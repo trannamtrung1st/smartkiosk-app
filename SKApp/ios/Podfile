@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'SKApp' do
-  # Pods for SKApp
+target 'SmartKiosk' do
+  # Pods for SmartKiosk
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -42,10 +42,10 @@ target 'SKApp' do
   use_native_modules!
 end
 
-target 'SKApp-tvOS' do
-  # Pods for SKApp-tvOS
+target 'SmartKiosk-tvOS' do
+  # Pods for SmartKiosk-tvOS
 
-  target 'SKApp-tvOSTests' do
+  target 'SmartKiosk-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
