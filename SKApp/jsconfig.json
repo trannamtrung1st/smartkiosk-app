@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "$assets": ["./assets"],
+      "$components": ["./src/components"],
+      "$presenters": ["./src/presenters"],
+      "$views": ["./src/views"],
+      "$api": ["./src/api"],
+      "$app-helpers": ["./src/helpers"],
+      "$styles": ["./src/styles"],
+      "$app-contexts": ["./src/contexts"],
+      "$navigation": ["./src/navigation"],
+      "$services": ["./src/services"],
+      "$constants": ["./constants"],
+      "$app": ["./src"],
+      "$global": ["./global"],
+      "$assets/*": ["./assets/*"],
+      "$components/*": ["./src/components/*"],
+      "$views/*": ["./src/views/*"],
+      "$presenters/*": ["./src/presenters/*"],
+      "$api/*": ["./src/api/*"],
+      "$app-helpers/*": ["./src/helpers/*"],
+      "$styles/*": ["./src/styles/*"],
+      "$app-contexts/*": ["./src/contexts/*"],
+      "$navigation/*": ["./src/navigation/*"],
+      "$services/*": ["./src/services/*"],
+      "$constants/*": ["./constants/*"],
+      "$global/*": ["./global/*"],
+      "$app/*": ["./src/*"]
+    }
+  }
+}

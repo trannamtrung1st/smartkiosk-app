@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ".",
+        "alias": {
+          "$assets": "./assets",
+          "$constants": "./constants",
+          "$global": "./global",
+          "$navigation": "./src/navigation",
+          "$app-contexts": "./src/contexts",
+          "$styles": "./src/styles",
+          "$components": "./src/components",
+          "$services": "./src/services",
+          "$app-helpers": "./src/helpers",
+          "$presenters": "./src/presenters",
+          "$views": "./src/views",
+          "$api": "./src/api",
+          "$app": "./src"
+        }
+      }
+    ]
+  ]
+}
